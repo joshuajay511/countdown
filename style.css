@@ -1,0 +1,33 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  border: 0;
+  padding: 0;
+  font-family: cursive, sans-serif;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/5485112/pexels-photo-5485112.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+  background-repeat: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+}
+
+.countdown div {
+  margin: 0 16px;
+}
+
+p{
+  font-size: 24px;
+  font-weight: bold;
+}
+
